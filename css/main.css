@@ -45,22 +45,24 @@ nav ul li{
 nav ul li a {
     line-height: 80px;
     color: #151515;
-padding: 12px 30px;
-text decoration: none;
-text-transform: uppercase;
-transition: .3s;}
+    padding: 12px 30px;
+    text decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
 
-nav.black ul li a{
+nav.black ul li a {
     color: #fff;
 }
 
 nav ul li a:focus{
-    outline: none;}
+    outline: none;
+}
 
 nav ul li a.active{
     background: #E2472F;
     color: #fff;
-    border-radius: 6px
+    border-radius: 6px;
 }
 
 a {
