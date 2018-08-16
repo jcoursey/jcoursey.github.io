@@ -38,6 +38,30 @@ nav ul{
    
 }
 
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #151515;
+padding: 12px 30px;
+text decoration: none;
+text-transform: uppercase;
+transition: .3s;}
+
+nav.black ul li a{
+    color: #fff;
+}
+
+nav ul li a:focus{
+    outline: none;}
+
+nav ul li a.active{
+    background: #E2472F;
+    color: #fff;
+    border-radius: 6px
+}
 
 a {
     text-decoration: none;
@@ -60,14 +84,7 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
 
-ul.posts li {
-    list-style: none;
-}
 
 .img {
     height: auto;
