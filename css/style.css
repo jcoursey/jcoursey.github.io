@@ -1,9 +1,9 @@
 
 font-family: 'Roboto', sans-serif;
 
-nav ul a,
+nav ul li a,
 nav .brand-logo {
-    color: black;
+    color: 444;
 }
 
 
