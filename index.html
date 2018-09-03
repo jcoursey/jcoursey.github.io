@@ -13,6 +13,96 @@
 <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	
+	<style>
+	nav ul a,
+nav .brand-logo {
+    color: 444;
+}
+
+
+.padded {
+    padding: 10px;
+}
+
+.resize {
+    max-width: 100%;
+    height: auto;
+}
+
+.img {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.profile-img {
+    height: auto;
+    width: auto;
+    max-width: 240px;
+    max-height: 240px;
+    display:block;
+    margin:auto;
+}
+
+.parallax-container {
+    height: 570px;
+}
+
+.icon-img {
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    max-height: 150px;
+    display:block;
+    margin:auto;
+}
+
+.img-natural {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.img-hidden {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.roboto {
+    font-family: Roboto, sans-serif;
+}
+
+.card-spacing {
+    padding: 10%;
+    height: auto;
+    width: auto;
+    max-width: 240px;
+    max-height: 240px;
+}
+
+.modal-img {
+    padding: 10%;
+    height: auto;
+    width: auto;
+    max-width: 260px;
+    max-height: 260px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 30px;
+}
+
+.imgborder
+{
+    background:grey;
+    border:1px solid #000000;
+}
+	</style>
 
 </head>
 
@@ -28,8 +118,8 @@
             <a href="#" class="brand-logo right">Jordan Coursey</a>
             <ul id="nav-mobile" class="left hide-on-med-and-down ">
                 <li><a href="#projects" id="project-click">Projects</a></li>
-                <!--<li><a href="#resume" id="resume-click">Resume</a></li>-->
                 <li><a href="#contact" id="contact-click">Contact Me</a></li>
+                <!--<li><a href="#resume" id="resume-click">Resume</a></li>-->
             </ul>
         </div>
     </nav>
@@ -46,9 +136,8 @@
         <!--<div class="col s12 m2 profile-img img-hidden" id="profileimg">
             <img src="images/professional_photo.jpg" alt="tim" class="circle responsive-img z-depth-2">
         </div>-->
-        <br>
-        <h5 class="light center grey-text text-lighten-3 img-hidden" id="subtitle">An entrepreneur with a passion for
-	    technology and design.</h5>
+        
+        <h5 class="light center grey-text text-lighten-3" id="subtitle">Innovation. Technology. Design.</h5>
         <br><br>
     </div>
 </div>
@@ -272,17 +361,17 @@
         <div class="row">
             <div class="col s4">
                 <a href="https://www.linkedin.com/in/jordan-coursey">
-                    <img class="responsive-img icon-img img-natural" id="img-hover1" src="images/linkedin-icon.png" width="120px" height="120px" align="left" >
+                    <img class="responsive-img icon-img img-natural" id="img-hover1" src="images/linkedin-icon.png" >
                 </a>
             </div>
             <div class="col s4">
                 <a class="pointer" href="mailto:jordancoursey@gmail.com">
-                    <img class="responsive-img icon-img img-natural" id="img-hover2" src="images/gmail-icon.png" width="120px" height="120px" align="middle">
+                    <img class="responsive-img icon-img img-natural" id="img-hover2" src="images/gmail-icon.png" >
                 </a>
             </div>
             <div class="col s4">
                 <a href="https://github.com/jcoursey">
-                    <img class="responsive-img icon-img img-natural" id="img-hover3" src="images/github-icon.jpg" width="120px" height="120px" align="right">
+                    <img class="responsive-img icon-img img-natural" id="img-hover3" src="images/github-icon.jpg" >
                 </a>
             </div>
         </div>
