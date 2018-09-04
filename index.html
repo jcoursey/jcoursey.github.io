@@ -14,7 +14,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	
 	<style>
-	nav ul a,
+
+nav ul a,
 nav .brand-logo {
     color: 444;
 }
@@ -111,11 +112,13 @@ nav .brand-logo {
 <script type="text/javascript" src="js/materialize.min.js"></script>
 <script type="text/javascript" src="js/init.js"></script>
 
-
+<!-- navigation bar-->
 <div class="navbar-fixed">
     <nav class="black">
         <div class="nav-wrapper">
             <a href="#" class="brand-logo right">Jordan Coursey</a>
+                
+
             <ul id="nav-mobile" class="left hide-on-med-and-down ">
                 <li><a href="#projects" id="project-click">Projects</a></li>
                 <li><a href="#contact" id="contact-click">Contact Me</a></li>
@@ -124,6 +127,7 @@ nav .brand-logo {
         </div>
     </nav>
 </div>
+
 
 <div class="parallax-container" id="top">
     <div class="parallax">
@@ -142,6 +146,7 @@ nav .brand-logo {
     </div>
 </div>
 
+<!--Projects section -->
 <div class="section no-pad-bot">
     <div class="container" id="projects">
         <br><br>
@@ -219,9 +224,9 @@ nav .brand-logo {
                             </div>
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">Party Planning App - Android Mobile (Java)<i class="material-icons right">close</i></span>
-                                <p>An application used to coordinate the logistics of planning a party. Relevant information is distributed only to necessary individuals for a streamlined planning process. Hosts are able to make lists that allows party-goers to bring items requested by the host in a transparent environment. Polling capabilities allow for hosts to make decisions about the party that appeal to the most party-goers. The app utilizes the Google Maps API to show the location of the party. Users can also display their own location to others invited to the party as an option to enhance ride-sharing possibilities. </p>
+                                <p>An application used to coordinate the logistics of planning a party. Relevant information is distributed only to necessary individuals for a streamlined planning process. Hosts are able to make lists that allow party-goers to bring items requested by the host in a transparent environment. Polling capabilities allow for hosts to make decisions about the party that appeal to the most party-goers. The app utilizes the Google Maps API to show the location of the party. Users can also display their own location to others invited to the party as an option to enhance ride-sharing possibilities among party-goers. </p>
                                 <br>
-                                <a class="waves-effect waves-light btn bottom modal-trigger" id="card-button1">Github Repository</a>
+                                <a class="waves-effect waves-light btn modal-trigger" id="card-button1">Github Repository</a>
                             </div>
                         </div>
                     </div>
@@ -237,9 +242,9 @@ nav .brand-logo {
                             </div>
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">Directed Acyclic Graphs (C++) <i class="material-icons right">close</i></span>
-                                <p>Created a weighted DAG to plot connections between actors and movies they have starred in using C++. Used the resulting graph to determine centrality, clustering coefficient and k-degeneracy.</p>
-                                
-                                <a class="waves-effect waves-light btn bottom modal-trigger" id="card-button8">Github Repository</a>
+                                <p> Created a weighted DAG to plot connections between actors and movies they have starred in using C++. I then used the resulting graph to determine centrality, clustering coefficient and k-degeneracy.</p>
+                                <br>
+                                <a class="waves-effect waves-light btn modal-trigger" id="card-button8">Github Repository</a>
                             </div>
                         </div>
                     </div>
@@ -319,7 +324,8 @@ nav .brand-logo {
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">An Analytical Approach Using Collective Action Theory<i class="material-icons right">close</i></span>
                                 <p>A memo addressed to a policy maker in the Silicon Valley Technology Workspace using the theory of collective action. The paper analyzes the complexities of groups working together to meet a public good. In this case the analysis revolves around the threat of government regulation and Silicon Valley Firms' choice to self regulate. </p>
-                                <a class="waves-effect waves-light btn bottom modal-trigger" id="card-button13">Paper</a>
+                                <br>
+                                <a class="waves-effect waves-light btn modal-trigger" id="card-button13">Paper</a>
                             </div>
                         </div>
                     </div>
@@ -385,28 +391,8 @@ nav .brand-logo {
 
 <!-- Entrepreneurship Files-->
 
-<div id="modal1" class="modal">
-    <div class="modal-content">
-        <h3>Party Planner</h3>
-        <p class="flow-text">
-            <a href="https://www.nwseaportalliance.com/news/10212016/nwsa-launch-mobile-apps-speed-cargo-flow-reduce-idling-related-air-emissions-save-fuel">
-                News Article
-            </a>
-            <br>
-            <a href="http://abc7news.com/technology/new-app-helps-truck-drivers-at-ports-be-more-efficient/1287165/">
-                ABC spotlight
-            </a>
-        </p>
-        <img class="responsive-img imgborder" src="images/DrayQ-Android-All.png" />
-        <br>
-        <br>
-        <img class="responsive-img imgborder" src="images/DrayQ-iOS-All.png" />
-    </div>
-    <div class="modal-footer">
-        <a href="#modal1" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-</div>
 
+<!---->
 <div id="modal2" class="modal">
     <div class="modal-content">
         <h3>Filler</h3>
@@ -419,7 +405,7 @@ nav .brand-logo {
         <a href="#modal1" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
     </div>
 </div>
-
+<!---->
 <div id="modal3" class="modal">
     <div class="modal-content">
         <h3>Filler 2</h3>
@@ -436,16 +422,19 @@ nav .brand-logo {
 </div>
 
 <!-- Software Dev Files-->
+<!---->
 <div id="modal8" class="modal">
     <div class="modal-content">
         <h3>6 Degrees of Kevin Bacon</h3>
-        <img class="responsive-img" src="images/Melodist-1.png" />
+        
+        <a href="https://github.com/jcoursey/6-Degrees-of-Kevin-Bacon">Github Repository</a>
+
     </div>
     <div class="modal-footer">
         <a href="#modal1" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
     </div>
 </div>
-
+<!---->
 <div id="modal9" class="modal">
     <div class="modal-content">
         <h3>CruzRoja Dispatcher WebApp</h3>
@@ -458,9 +447,22 @@ nav .brand-logo {
         <a href="#modal1" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
     </div>
 </div>
-
+<!---->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <h3>Party Planner</h3>
+        <p class="flow-text">
+            <a href="https://github.com/jcoursey/PartyPlannerApp">Github Repository</a>
+        </p>
+        
+    </div>
+    <div class="modal-footer">
+        <a href="#modal1" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+</div>
 
 <!-- academic papers files-->
+<!---->
 <div id="modal10" class="modal">
     <div class="modal-content">
         <h3>US Foreign Policy in the Persian Gulf</h3>
@@ -475,7 +477,7 @@ nav .brand-logo {
         <a href="#modal1" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
     </div>
 </div>
-
+<!---->
 <div id="modal11" class="modal">
     <div class="modal-content">
         <h3>Corporate Strategy Analytics</h3>
@@ -488,7 +490,7 @@ nav .brand-logo {
         <a href="#modal1" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
     </div>
 </div>
-
+<!---->
 <div id="modal13" class="modal">
     <div class="modal-content">
         <h4>Policy Memo</h4>
@@ -502,6 +504,7 @@ nav .brand-logo {
     </div>
 </div>
 
+<!---->
 <div id="email-modal" class="modal">
     <div class="modal-content">
         <h1>Form Content</h1>
